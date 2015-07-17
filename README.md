@@ -21,8 +21,6 @@ HelloWorld is already fully configured.
 MicroEJ 3.1.0 or above must be installed on your computer.
 
 ### Project structure
-
-#### Demo:
 - Tool-Excel-to-NLS
 
  - Excel-to-NLS
@@ -36,6 +34,7 @@ MicroEJ 3.1.0 or above must be installed on your computer.
   - `launches/`: MicroEJ launch configuration 
   - `src/main/java/`: Java sources
   - `src/main/resources/`: resources
+  
  - `LICENCE.md`
  - `README.md`
 
