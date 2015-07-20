@@ -13,6 +13,7 @@ Excel-to-NLS comes without the JAR files from Apache POI. You have to download t
 - poi-ooxml-[version].jar
 - poi-ooxml-schemas-[version].jar
 - xmlbeans-[version].jar
+
 Then, right-click on the project and select Properties. In the left menu, select Java Build Path and open the Libraries tab. Add the above JARs to the Java build path.
 
 HelloWorld is already fully configured.
