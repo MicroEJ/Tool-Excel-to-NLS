@@ -41,9 +41,9 @@ MicroEJ 3.1.0 or above must be installed on your computer.
 
 
 ## Usage
-First, execute the App class of the Excel-to-NLS project. A launch configuration is provided for convenience. This will generate a set of NLS files and drop them in the appropriate folder of the HelloWorld project.
+First, execute the App class of the Excel-to-NLS project. A Java launch configuration is provided for convenience, right-click on launchs/Excel-to-NLS.launch and select Run as->Excel-to-NLS. This will generate a set of NLS files and drop them in the appropriate folder of the HelloWorld project.
 
-Second, execute the Main class of the HelloWorld project. A launch configuration is provided with the path to the NLS.list properly configured. This will print the same message with all the available locales in the Eclipse console.
+Second, execute the Main class of the HelloWorld project. A MicroEJ launch configuration is provided with the path to the NLS.list properly configured. This will print the same message with all the available locales in the Eclipse console.
 
 ## License
 See the license file `LICENSE.md` located at the root of this repository.
