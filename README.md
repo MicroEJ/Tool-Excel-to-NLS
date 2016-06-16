@@ -8,13 +8,13 @@ Two Eclipse projects are provided:
 2. [HelloWorld](/HelloWorld) takes all the generated files and uses NLS library to display the same message in several languages.
 
 ## Project Setup
-Excel-to-NLS comes without the JAR files from Apache POI. You have to download them from http://poi.apache.org. You have to copy the following JAR files to the `lib` folder of the project:
+Excel-to-NLS comes without the JAR files from Apache POI. You have to download them from http://poi.apache.org. You have to copy the following JAR files to the [lib](/Excel-to-NLS/lib) folder of the project:
 - poi-[version].jar
 - poi-ooxml-[version].jar
 - poi-ooxml-schemas-[version].jar
 - xmlbeans-[version].jar
 
-Then, right-click on the project and select Properties. In the left menu, select Java Build Path and open the Libraries tab. Add the above JARs to the Java build path.
+Then, right-click on the project and select **Properties**. In the left menu, select Java Build Path and open the Libraries tab. Add the above JARs to the Java build path.
 
 HelloWorld is already fully configured.
 
@@ -41,9 +41,9 @@ MicroEJ 3.1.0 or above must be installed on your computer.
 
 
 ## Usage
-First, execute the App class of the Excel-to-NLS project as a regular Java Application. A Java launch configuration is provided for convenience, right-click on launchs/Excel-to-NLS.launch and select Run as->Excel-to-NLS. This will generate a set of NLS files and drop them in the appropriate folder of the HelloWorld project.
+First, execute the App class of the Excel-to-NLS project as a regular Java Application. A Java launch configuration is provided for convenience, right-click on [launches/Excel-to-NLS.launch](/Excel-to-NLS/launches/Excel-to-NLS.launch) and select **Run as->Excel-to-NLS**. This will generate a set of NLS files and drop them in the appropriate folder of the HelloWorld project.
 
 Second, execute the Main class of the HelloWorld project as a MicroEJ Application. A MicroEJ launch configuration is provided with the path to the `nls.list` file properly configured. This will print the same message with all the available locales in the Eclipse console.
 
 ## License
-See the license file `LICENSE.md` located at the root of this repository.
+See the license file [LICENSE.md](LICENSE.md]) located at the root of this repository.
