@@ -45,6 +45,7 @@ Second, execute the [Main](/HelloWorld/src/main/java/ej/examples/nls/Main.java) 
 ## Run on MicroEJ Simulator
 1. Right Click on [Main.java](HelloWorld/src/main/java/ej/examples/nls/Main.java)
 1. Select **Run as -> Run Configuration** 
+1. Select **MicroEJ Application** configuration kind
 1. Click on **New launch configuration** icon
 1. Go to **Execution** tab
 	* Select your platform 
@@ -59,7 +60,8 @@ Second, execute the [Main](/HelloWorld/src/main/java/ej/examples/nls/Main.java) 
 ## Run on device
 ### Build
 1. Right Click on [Main.java](HelloWorld/src/main/java/ej/examples/nls/Main.java)
-1. Select **Run as -> Run Configuration** 
+1. Select **Run as -> Run Configuration**
+1. Select **MicroEJ Application** configuration kind
 1. Click on **New launch configuration** icon
 1. Select **Execute on Device**
 1. Select **Build & Deploy**
