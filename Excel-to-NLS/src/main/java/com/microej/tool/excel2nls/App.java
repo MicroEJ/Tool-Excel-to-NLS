@@ -1,10 +1,10 @@
 /*
  * Java
  *
- * Copyright 2015 IS2T. All rights reserved.
- * Use of this source code is governed by a BSD-style license that can be found at http://www.is2t.com/open-source-bsd-license/.
+ * Copyright 2015-2017 IS2T. All rights reserved.
+ * IS2T PROPRIETARY. Use is subject to license terms.
  */
-package ej.tools.excel2nls;
+package com.microej.tool.excel2nls;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -12,12 +12,9 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.util.List;
 
-import org.apache.poi.ss.usermodel.Workbook;
-import org.apache.poi.xssf.usermodel.XSSFWorkbook;
-
 /**
  * Hello world!
- * 
+ *
  * From Excel to NLS.
  *
  */

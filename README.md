@@ -44,36 +44,36 @@ Second, execute the [Main](/HelloWorld/src/main/java/ej/examples/nls/Main.java) 
 
 ## Run on MicroEJ Simulator
 1. Right Click on [Main.java](HelloWorld/src/main/java/ej/examples/nls/Main.java)
-1. Select **Run as -> Run Configuration** 
-1. Select **MicroEJ Application** configuration kind
-1. Click on **New launch configuration** icon
-1. Go to **Execution** tab
+2. Select **Run as -> Run Configuration** 
+3. Select **MicroEJ Application** configuration kind
+4. Click on **New launch configuration** icon
+5. Go to **Execution** tab
 	* Select your platform 
-1. Go to **Configuration** tab
+6. Go to **Configuration** tab
 	* Go to **Libraries -> NLS**
 		* Check Use NLS messages
 		* Set the **NLS list file** to`${project_loc:HelloWorld}/src/main/resources/HelloWorld/HelloWorld.nls.list`
-1. Press **Apply**
-1. Press **Run**
+7. Press **Apply**
+8. Press **Run**
 
 
 ## Run on device
 ### Build
 1. Right Click on [Main.java](HelloWorld/src/main/java/ej/examples/nls/Main.java)
-1. Select **Run as -> Run Configuration**
-1. Select **MicroEJ Application** configuration kind
-1. Click on **New launch configuration** icon
-1. Select **Execute on Device**
-1. Select **Build & Deploy**
-1. Go to **Execution** tab
+2. Select **Run as -> Run Configuration**
+3. Select **MicroEJ Application** configuration kind
+4. Click on **New launch configuration** icon
+5. Select **Execute on Device**
+6. Select **Build & Deploy**
+7. Go to **Execution** tab
 	* Select your platform 
-1. Go to **Configuration** tab
+8. Go to **Configuration** tab
 	* Go to **Libraries -> NLS**
 		* Check Use NLS messages
 		* Set the **NLS list file** to`${project_loc:HelloWorld}/src/main/resources/HelloWorld/HelloWorld.nls.list`
-1. Press **Apply**
-1. Press **Run**
-1. Copy the generated `.out` file path
+9. Press **Apply**
+10. Press **Run**
+11. Copy the generated `.out` file path
 
 ### Flash
 1. Use the appropriate flashing tool.
