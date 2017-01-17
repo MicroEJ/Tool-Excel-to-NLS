@@ -40,40 +40,40 @@ HelloWorld is already fully configured.
 ## Run XLS to NLS tool
 1. Execute the App class of the Excel-to-NLS project as a regular Java Application. A [Java launch configuration](/Excel-to-NLS/launches/Excel-to-NLS.launch) is provided for convenience, right-click on [launches/Excel-to-NLS.launch](/Excel-to-NLS/launches/Excel-to-NLS.launch) and select **Run as->Excel-to-NLS**. This will generate a set of NLS files and drop them in the appropriate folder of the HelloWorld project.
 
-Second, execute the [Main](/HelloWorld/src/main/java/ej/examples/nls/Main.java) class of the HelloWorld project as a MicroEJ Application. A [MicroEJ launch configuration](/HelloWorld/launches/HelloWorld on STM32429I-DISCO SimJPF.properties) is provided with the path to the [nls.list](/HelloWorld/src/main/resources/nls.list) file properly configured. This will print the same message with all the available locales in the Eclipse console.
+2. Execute the [Main](/HelloWorld/src/main/java/ej/examples/nls/Main.java) class of the HelloWorld project as a MicroEJ Application. A [MicroEJ launch configuration](/HelloWorld/launches/HelloWorld on STM32429I-DISCO SimJPF.properties) is provided with the path to the [nls.list](/HelloWorld/src/main/resources/nls.list) file properly configured. This will print the same message with all the available locales in the Eclipse console.
 
 ## Run on MicroEJ Simulator
 1. Right Click on [Main.java](HelloWorld/src/main/java/ej/examples/nls/Main.java)
-1. Select **Run as -> Run Configuration** 
-1. Select **MicroEJ Application** configuration kind
-1. Click on **New launch configuration** icon
-1. Go to **Execution** tab
+2. Select **Run as -> Run Configuration** 
+3. Select **MicroEJ Application** configuration kind
+4. Click on **New launch configuration** icon
+5. Go to **Execution** tab
 	* Select your platform 
-1. Go to **Configuration** tab
+6. Go to **Configuration** tab
 	* Go to **Libraries -> NLS**
 		* Check Use NLS messages
 		* Set the **NLS list file** to`${project_loc:HelloWorld}/src/main/resources/HelloWorld/HelloWorld.nls.list`
-1. Press **Apply**
-1. Press **Run**
+7. Press **Apply**
+8. Press **Run**
 
 
 ## Run on device
 ### Build
 1. Right Click on [Main.java](HelloWorld/src/main/java/ej/examples/nls/Main.java)
-1. Select **Run as -> Run Configuration**
-1. Select **MicroEJ Application** configuration kind
-1. Click on **New launch configuration** icon
-1. Select **Execute on Device**
-1. Select **Build & Deploy**
-1. Go to **Execution** tab
+2. Select **Run as -> Run Configuration**
+3. Select **MicroEJ Application** configuration kind
+4. Click on **New launch configuration** icon
+5. Select **Execute on Device**
+6. Select **Build & Deploy**
+7. Go to **Execution** tab
 	* Select your platform 
-1. Go to **Configuration** tab
+8. Go to **Configuration** tab
 	* Go to **Libraries -> NLS**
 		* Check Use NLS messages
 		* Set the **NLS list file** to`${project_loc:HelloWorld}/src/main/resources/HelloWorld/HelloWorld.nls.list`
-1. Press **Apply**
-1. Press **Run**
-1. Copy the generated `.out` file path
+9. Press **Apply**
+10. Press **Run**
+11. Copy the generated `.out` file path
 
 ### Flash
 1. Use the appropriate flashing tool.

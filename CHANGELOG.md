@@ -1,16 +1,8 @@
-<!--
-	Markdown
--->
-<!--
-Changelog template:
-
-## Revision (YYYY-mm-dd)
+## 4.0.0 (2017-01-12)
 Features:
-  - List here the new features.
-  
-Bugfixes:
-  - List here the bug fixes.
--->
+  - Change revision numbering (Sum of all subprojects revisions).
+  - Change organization.
+  - Fix license
 
 ## 1.0.0 (2016-05-23)
 Features:
