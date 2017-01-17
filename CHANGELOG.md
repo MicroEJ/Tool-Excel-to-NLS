@@ -1,5 +1,6 @@
 ## 4.0.0 (2017-01-12)
 Features:
+  - Change revision numbering (Sum of all subprojects revisions).
   - Change organization.
   - Fix license
 
