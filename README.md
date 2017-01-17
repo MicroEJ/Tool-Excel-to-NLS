@@ -40,7 +40,7 @@ HelloWorld is already fully configured.
 ## Run XLS to NLS tool
 1. Execute the App class of the Excel-to-NLS project as a regular Java Application. A [Java launch configuration](/Excel-to-NLS/launches/Excel-to-NLS.launch) is provided for convenience, right-click on [launches/Excel-to-NLS.launch](/Excel-to-NLS/launches/Excel-to-NLS.launch) and select **Run as->Excel-to-NLS**. This will generate a set of NLS files and drop them in the appropriate folder of the HelloWorld project.
 
-Second, execute the [Main](/HelloWorld/src/main/java/ej/examples/nls/Main.java) class of the HelloWorld project as a MicroEJ Application. A [MicroEJ launch configuration](/HelloWorld/launches/HelloWorld on STM32429I-DISCO SimJPF.properties) is provided with the path to the [nls.list](/HelloWorld/src/main/resources/nls.list) file properly configured. This will print the same message with all the available locales in the Eclipse console.
+2. Execute the [Main](/HelloWorld/src/main/java/ej/examples/nls/Main.java) class of the HelloWorld project as a MicroEJ Application. A [MicroEJ launch configuration](/HelloWorld/launches/HelloWorld on STM32429I-DISCO SimJPF.properties) is provided with the path to the [nls.list](/HelloWorld/src/main/resources/nls.list) file properly configured. This will print the same message with all the available locales in the Eclipse console.
 
 ## Run on MicroEJ Simulator
 1. Right Click on [Main.java](HelloWorld/src/main/java/ej/examples/nls/Main.java)

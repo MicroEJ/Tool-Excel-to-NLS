@@ -9,6 +9,7 @@ This project takes all the generated files and uses NLS library to display the s
 4. Click on **New launch configuration** icon
 5. Go to **Execution** tab
 	* Select your platform 
+	* Select **Execute on Simulator** 
 6. Go to **Configuration** tab
 	* Go to **Libraries -> NLS**
 		* Check Use NLS messages
@@ -23,17 +24,17 @@ This project takes all the generated files and uses NLS library to display the s
 2. Select **Run as -> Run Configuration**
 3. Select **MicroEJ Application** configuration kind
 4. Click on **New launch configuration** icon
-5. Select **Execute on Device**
-6. Select **Build & Deploy**
-7. Go to **Execution** tab
+5. Go to **Execution** tab
 	* Select your platform 
-8. Go to **Configuration** tab
+	* Select **Execute on Device**
+	* Set the **Settings** field to **Build & Deploy**
+6. Go to **Configuration** tab
 	* Go to **Libraries -> NLS**
 		* Check Use NLS messages
 		* Set the **NLS list file** to`${project_loc:HelloWorld}/src/main/resources/HelloWorld/HelloWorld.nls.list`
-9. Press **Apply**
-10. Press **Run**
-11. Copy the generated `.out` file path
+7. Press **Apply**
+8. Press **Run**
+9. Copy the generated `.out` file path
 
 ### Flash
 1. Use the appropriate flashing tool.
